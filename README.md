@@ -10,8 +10,7 @@ PyTorch implementation of the Reinforcement Learning for Distant Supervision RE 
 * ``panda 0.19.1``
 
 ### Datasets and word embeddings
-* Dataset and Pretrained word embeddings are from [OpenNRE](https://github.com/thunlp/OpenNRE). Please download and put it into this directory.
-* https://pan.baidu.com/s/1RT6bBtqzsJg4WfBCBvqw4g 
+* [Dataset and Pretrained word embeddings](https://pan.baidu.com/s/1RT6bBtqzsJg4WfBCBvqw4g) are from [OpenNRE](https://github.com/thunlp/OpenNRE). Please download and put it into this directory. 
 * We include two versions of training dataset; they have different size, ``522611`` sentences and ``570088`` sentences repectively. This two options are included in ``args.py``. Compared with ``570088`` version, ``522611`` version removes entity pairs that are repetitive with test dataset. ``522611`` is the default options in ``args.py``.
 
 ### Training
